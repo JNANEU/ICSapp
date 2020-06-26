@@ -1,0 +1,3 @@
+C:\Users\Admin\source\repos\ICS\ICS\ICS.Android\obj\Release\51\MonoAndroid,Version=v5.1.AssemblyAttributes.cs
+C:\Users\Admin\source\repos\ICS\ICS\ICS.Android\obj\Release\51\build.props
+C:\Users\Admin\source\repos\ICS\ICS\ICS.Android\obj\Release\51\adb.props

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ICS.shedule">
+    <ContentPage.Content>
+
+        <StackLayout Spacing="5" Orientation="Vertical">
+
+            <Grid   
+                 HorizontalOptions="FillAndExpand">
+                <Button BackgroundColor="#88B1DE"  Text="Перша пара(кор.№ , ауд. №)" CornerRadius="30"></Button>
+            </Grid>
+
+            <Grid  
+               
+                 HorizontalOptions="FillAndExpand">
+                <Button BackgroundColor="#88B1DE"  Text="Друга пара(кор.№ , ауд. №)" CornerRadius="30"></Button>
+            </Grid>
+
+            <Grid  
+                 HorizontalOptions="FillAndExpand">
+                <Button BackgroundColor="#88B1DE"  Text="Третя пара(кор.№ , ауд. №)" CornerRadius="30"></Button>
+            </Grid>
+
+            <Grid  
+                 HorizontalOptions="FillAndExpand">
+                <Button BackgroundColor="#88B1DE"  Text="Четверта пара(кор.№ , ауд. №)" CornerRadius="30"></Button>
+            </Grid>
+
+            <Grid   
+                 HorizontalOptions="FillAndExpand">
+                <Button BackgroundColor="#88B1DE"  Text="П'ята пара(кор.№ , ауд. №)" CornerRadius="30"></Button>
+            </Grid>
+
+            <Grid  
+                 HorizontalOptions="FillAndExpand">
+                <Button BackgroundColor="#88B1DE"  Text="Шоста пара(кор.№ , ауд. №)" CornerRadius="30"></Button>
+            </Grid>
+
+            <Entry Placeholder="Місце для нотаток" 
+                    HorizontalOptions="Fill" ></Entry>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

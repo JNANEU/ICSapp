@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ICS.teachersPage"
+             >
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout Orientation="Vertical"
+     VerticalOptions="StartAndExpand"
+     HorizontalOptions="StartAndExpand">
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="bazvl.png"></Image>
+
+                    <Label Text="Базилевич Володимир Маркович (к.е.н)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail"></ImageButton>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="nofoto.png"></Image>
+
+                    <Label Text="Андрущенко Роман Богданович (Асистент)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail"></ImageButton>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="bivtar.png"></Image>
+
+                    <Label Text="Бивойно Тарас Павлович (Старший викладач)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail"></ImageButton>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="nabkost.png"></Image>
+
+                    <Label Text="Набок Констянтин Ростиславович (Асистент)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail"></ImageButton>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="yakira.png"></Image>
+
+                    <Label Text="Якименко Ірина Вікторівна (Асистент)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail"></ImageButton>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="nofoto.png"></Image>
+
+                    <Label Text="Красножон Олексій Васильович (Старший викладач)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail"></ImageButton>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="akimandr.png"></Image>
+
+                    <Label Text="Акименко Андрій Миколайович (Доцент, к.ф.-н.м.)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail"></ImageButton>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="suprslv.png"></Image>
+
+                    <Label Text="Супрун В'ячеслав Володимирович (Асистент)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail_suprun"></ImageButton>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal"
+                             RelativeLayout.WidthConstraint="{ConstraintExpression
+                    Type=RelativeToView,
+                    Property=Width,
+                    Factor=1,
+                    Constant=0}">
+                    <Image Source="usikan.png"></Image>
+
+                    <Label Text=" Усік Анна Миколаївна (Асистент)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail"
+                                 HorizontalOptions="End"
+                                 RelativeLayout.XConstraint="{ConstraintExpression
+                        Type=Constant,
+                        Factor=1,
+                        Property=Width,
+                        Constant=-35}"></ImageButton>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="rindeug.png"></Image>
+
+                    <Label Text="Риндич Євгеній Володимирович (Доцент, к.т.н.)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail"></ImageButton>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="stser.png"></Image>
+
+                    <Label Text="Стасюк Сергій Станіславович (Старший викладач)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail"></ImageButton>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="niceug.png"></Image>
+
+                    <Label Text="Нікітенко Євгеній Васильович (Доцент, к.ф.-м.н.)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail"></ImageButton>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="prila.png"></Image>
+
+                    <Label Text="Пріла Ольга Анатоліївна (Доцент, к.т.н.)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail"></ImageButton>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="rogandr.png"></Image>
+
+                    <Label Text="Роговенко Андрій Іванович (Старший викладач)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail"></ImageButton>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="zarovsk.png"></Image>
+
+                    <Label Text="Заровський Руслан Владиславович (Доцент, к.т.н)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail"></ImageButton>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="firsir.png"></Image>
+
+                    <Label Text="Фірсова Ірина Валеріївна (Старший викладач)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail"></ImageButton>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="nestr.png"></Image>
+
+                    <Label Text="Нестеренко Сергій Олександрович (Доцент, к.т.н.)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail"></ImageButton>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="bychko.png"></Image>
+
+                    <Label Text="Бичко Володимир Анатолійович (Доцент, к.ф.-м.н.)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail"></ImageButton>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="byvpl.png"></Image>
+
+                    <Label Text="Бивойно Павло Георгійович (Доцент, к.т.н.)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail"></ImageButton>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="kazsv.png"></Image>
+
+                    <Label Text="Казнадій Світлана Петрівна (Старший викладач)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail"></ImageButton>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="ivanetch.png"></Image>
+
+                    <Label Text="Іванець Сегій Анатолійович (Доцент, к.т.н.)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail"></ImageButton>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="kazimir.png"></Image>
+
+                    <Label Text="Казимир Володимир Вікторович (Професор, д.т.н)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail"></ImageButton>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="zaitchev.png"></Image>
+
+                    <Label Text="Зайцев Сергій Васильович (Професор)"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Fill"
+            FontSize="14"
+            TextColor="#88B1DE">
+                    </Label>
+
+                    <ImageButton Source="send.png" Clicked="send_mail"></ImageButton>
+
+                </StackLayout>
+
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

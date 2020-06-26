@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:behavior="clr-namespace:ICS"
+             mc:Ignorable="d"
+             x:Class="ICS.modalReg">
+    <ContentPage.Resources>
+        <StyleSheet Source="styles.css"/>
+    </ContentPage.Resources>
+    <ContentPage.Content>               
+        <RelativeLayout VerticalOptions="Fill" 
+                        HorizontalOptions="Fill"
+                        x:Name="regForm">
+            <Image Source="background_alt.jpg" 
+                   Aspect="AspectFit"  
+                   Opacity="0.8"
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="FillAndExpand"
+                   RelativeLayout.WidthConstraint="{ConstraintExpression
+            Type=RelativeToParent,
+            Property=Width,
+            Factor=1,
+            Constant=0}"
+                   RelativeLayout.HeightConstraint="{ConstraintExpression
+            Type=RelativeToParent,
+            Property=Height,
+            Factor=1,
+            Constant=0}"
+                   />
+            <StackLayout x:Name="regLayout"
+                         Orientation="Vertical"
+                         VerticalOptions="CenterAndExpand" 
+                         HorizontalOptions="CenterAndExpand"
+                         RelativeLayout.WidthConstraint="{ConstraintExpression
+                         Type=RelativeToParent,
+                         Property=Width,
+                         Factor=1,
+                         Constant=0}"
+                         RelativeLayout.HeightConstraint="{ConstraintExpression
+                         Type=RelativeToParent,
+                         Property=Height,
+                         Factor=1,
+                         Constant=0}">
+                <Frame
+                        CornerRadius="31"
+                        Padding="0"                                
+                        HasShadow="False"
+                        BackgroundColor="#88B1DE"                
+                        HorizontalOptions="FillAndExpand"
+                 >
+                    <Label Margin="10" 
+                            HorizontalOptions="FillAndExpand" 
+                            FontAttributes="Bold" 
+                            Text="Реєстрація"
+                            HorizontalTextAlignment="Center"
+                            VerticalTextAlignment="Center"/>
+                    
+                </Frame>
+                <StackLayout Orientation="Horizontal"
+                             HorizontalOptions="CenterAndExpand">
+                    <Label Text="Студент"/>
+                    <Switch x:Name="regSwitch" IsToggled="False"/>
+                    <Label Text="Викладач"/>
+                </StackLayout>
+                <Label x:Name="responseStr"></Label>
+            </StackLayout>
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>
